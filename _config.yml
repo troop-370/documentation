@@ -1,6 +1,5 @@
 title: BSA Troop 370 Documentation
-remote-theme: "just-the-docs"
-theme: "just-the-docs"
+remote_theme: "just-the-docs"
 search_enabled: true
 aux_links:
     "BSA Troop 370 Website":
