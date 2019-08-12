@@ -5,5 +5,3 @@ aux_links:
     "BSA Troop 370 Website":
       - "https://troop370atlanta.org/"
 color_scheme: nil
-plugins:
-  - jekyll-remote-theme

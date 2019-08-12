@@ -43,6 +43,12 @@ Atom is a text editor with direct integration with GitHub. It is the easiest way
 2. Once installed, open Atom.
 3. Got to *File* > *Add Project Folder* and select the folder of the troop website repository (usually named *troop370*) from where you saved it when setting up GitHub Desktop. You should now see the project pane on the left side with all of the site files.
 
+### npm
+
+1. Download and install npm from [npmjs.com/get-npm](https://www.npmjs.com/get-npm).
+2. Open PowerShell from the root of the troop370 repository by opening GitHub Desktop, selecting the troop370 repository from the *Current repository dropdown*, and go to *Repository* > *Open in PowerShell*.
+3. Type `npm install`. Required external libraries will now be installed.
+
 ### Ruby
 
 1. Download Ruby for windows from [rubyinstaller.org](https://rubyinstaller.org/downloads/). Choose version Ruby+Devkit 2.5.5 (x64).
@@ -54,7 +60,7 @@ Atom is a text editor with direct integration with GitHub. It is the easiest way
 Jekyll is the program that builds the website. You will use Jekyll when you are working on the website to test your changes locally before publishing to the live website.
 
 1. Open PowerShell from the root of the troop370 repository by opening GitHub Desktop, selecting the troop370 repository from the *Current repository dropdown*, and go to *Repository* > *Open in PowerShell*.
-2. Type `gem install jekyll bundler` to install Jekyll (the website builder) and Bundler (installs the gems/plugins needed for the website).
-3. Check if Jekyll installed properly with `jekyll -v`.
-4. Run `bundler install` to install the exact versions of the gems used for building the website.
+2. Type `gem install bundler` to install Bundler (installs the gems/plugins needed for the website).
+3. Run `bundler install` to install the exact versions of Jekyll and of the gems used for building the website.
+4. Check if Jekyll installed properly with `jekyll -v`.
 5. Type `jekyll serve` to build the website. If it works, you should be able to access it in your browser at [localhost:4000](http://localhost:4000).
